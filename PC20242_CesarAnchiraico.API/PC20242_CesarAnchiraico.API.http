@@ -1,0 +1,6 @@
+@PC20242_CesarAnchiraico.API_HostAddress = http://localhost:5285
+
+GET {{PC20242_CesarAnchiraico.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
