@@ -5,6 +5,8 @@ namespace EventManagementDB.DOMAIN.Core.Entities;
 
 public partial class Organizers
 {
+    internal bool IsActive;
+
     public int Id { get; set; }
 
     public string OrganizerName { get; set; } = null!;

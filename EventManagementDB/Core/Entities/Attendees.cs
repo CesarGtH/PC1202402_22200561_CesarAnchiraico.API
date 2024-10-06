@@ -5,6 +5,8 @@ namespace EventManagementDB.DOMAIN.Core.Entities;
 
 public partial class Attendees
 {
+    internal bool IsActive;
+
     public int Id { get; set; }
 
     public string AttendeeName { get; set; } = null!;
